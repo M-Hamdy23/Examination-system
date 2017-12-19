@@ -1,0 +1,6 @@
+E:\Private\ITI Study\C#\Lab\Examination-system\NIC\bin\Debug\NIC.exe.config
+E:\Private\ITI Study\C#\Lab\Examination-system\NIC\bin\Debug\NIC.exe
+E:\Private\ITI Study\C#\Lab\Examination-system\NIC\bin\Debug\NIC.pdb
+E:\Private\ITI Study\C#\Lab\Examination-system\NIC\obj\Debug\NIC.csproj.CoreCompileInputs.cache
+E:\Private\ITI Study\C#\Lab\Examination-system\NIC\obj\Debug\NIC.exe
+E:\Private\ITI Study\C#\Lab\Examination-system\NIC\obj\Debug\NIC.pdb

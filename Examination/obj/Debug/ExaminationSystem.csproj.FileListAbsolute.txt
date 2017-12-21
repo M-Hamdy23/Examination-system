@@ -1,0 +1,7 @@
+E:\Private\ITI Study\C#\Lab\Examination-system\Examination\bin\Debug\Examination.exe.config
+E:\Private\ITI Study\C#\Lab\Examination-system\Examination\bin\Debug\Examination.exe
+E:\Private\ITI Study\C#\Lab\Examination-system\Examination\bin\Debug\Examination.pdb
+E:\Private\ITI Study\C#\Lab\Examination-system\Examination\obj\Debug\ExaminationSystem.csprojResolveAssemblyReference.cache
+E:\Private\ITI Study\C#\Lab\Examination-system\Examination\obj\Debug\ExaminationSystem.csproj.CoreCompileInputs.cache
+E:\Private\ITI Study\C#\Lab\Examination-system\Examination\obj\Debug\Examination.exe
+E:\Private\ITI Study\C#\Lab\Examination-system\Examination\obj\Debug\Examination.pdb

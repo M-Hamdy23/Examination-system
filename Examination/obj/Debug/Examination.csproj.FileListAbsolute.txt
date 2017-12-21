@@ -11,3 +11,4 @@ E:\Private\ITI Study\C#\Lab\Examination-system\Examination\bin\Debug\Examination
 E:\Private\ITI Study\C#\Lab\Examination-system\Examination\obj\Debug\Examination.csproj.CoreCompileInputs.cache
 E:\Private\ITI Study\C#\Lab\Examination-system\Examination\obj\Debug\Examination.exe
 E:\Private\ITI Study\C#\Lab\Examination-system\Examination\obj\Debug\Examination.pdb
+E:\Private\ITI Study\C#\Lab\Examination-system\Examination\obj\Debug\Examination.csprojResolveAssemblyReference.cache

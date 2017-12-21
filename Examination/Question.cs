@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace ExaminationSystem
 {
-     abstract class Question
+    class Question
     {
         protected string _header;
         protected string _body;
         protected AnswerList _chooses;
         protected AnswerList _modleAnswer;
         protected float _marks;
-        protected string _fileName;
+        protected string _fileName = "";
 
         public string header
         {
@@ -97,6 +97,7 @@ namespace ExaminationSystem
             _modleAnswer = modleAnswer;
         }
 
+        
         public void showQuestionAnswer()
         {
             Console.WriteLine(_header);
@@ -112,14 +113,15 @@ namespace ExaminationSystem
         {
             string str = "";
 
-            str += _header + "/n";
-            str += _body + "/n";
-            for (int i = 0; i < chooses.Count; i++)
+            str += _header + "\n";
+            str += _body + "\n";
+            int i = 0;
+            for (i = 0; i < chooses.Count; i++)
             {
-                str += "   "+i+")"+chooses[i].answer + "/n";
+                str += "   "+(i+1)+")"+chooses[i].answer + "\n";
             }
 
-            str +=  "Enter your choice:";
+            str +=  "Enter your choice "+(i-1)+":";
             return str ;
         }
     }
@@ -177,7 +179,8 @@ namespace ExaminationSystem
 
         void writeInFile(Question question)
         {
-            using (StreamWriter writer = File.CreateText(question.fileName + Count+".txt"))
+            Directory.CreateDirectory(AppDomain.CurrentDomain.BaseDirectory+"\\Question");
+            using (StreamWriter writer = File.CreateText("Question\\"+question.fileName + Count+".txt"))
             {
                  writer.WriteLineAsync(question.header);
                  writer.WriteLineAsync(question.body);
